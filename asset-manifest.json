@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TarasZagamula/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/TarasZagamula/goit-react-hw-01-components/static/js/main.4a087a28.js",
+    "index.html": "/TarasZagamula/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/TarasZagamula/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.4a087a28.js.map": "/TarasZagamula/goit-react-hw-01-components/static/js/main.4a087a28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.4a087a28.js"
+  ]
+}
