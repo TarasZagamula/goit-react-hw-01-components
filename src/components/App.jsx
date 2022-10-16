@@ -29,13 +29,11 @@ export const App = () => {
   stats={UserData.stats}>
   </UserCard>
   <Statistic 
-  title={`Upload stats`}
-  stats={StatisticData}>
-  </Statistic>
+  title="Upload stats"
+  stats={StatisticData}/>
   <FriendList
-  friendsData={FriendsData}
-  ></FriendList>
-  <TransactionHistory items={Transactions}></TransactionHistory>
+  friendsData={FriendsData}/>
+  <TransactionHistory items={Transactions}/>
   </Container>
 
     </div>

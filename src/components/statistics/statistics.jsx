@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export const Statistic = ({title, stats}) => {
     return (
         <StatBox>
-            <StatTitle>{title}</StatTitle>
+            {title && (<StatTitle>{title}</StatTitle>)}
             <StatList>
                {stats.map(data => (
                 <StatListItem key={data.id} randomColor={randomColor}>
@@ -20,5 +20,9 @@ export const Statistic = ({title, stats}) => {
 
  Statistic.propTypes = {
     title: PropTypes.string,
-    stats: PropTypes.array.isRequired,
+    stats: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired,
+        percentage: PropTypes.number.isRequired,
+    }))
  }
